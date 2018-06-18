@@ -99,7 +99,7 @@ def readMnist():
     x = zeros((N, rows, cols), dtype=float32)  # Initialize numpy array
     y = zeros(N, dtype=uint8)  # Initialize numpy array
     # todo: change later to N, instead of 10000, just for testing
-    for i in range(10000):
+    for i in range(6000):
         if i % 1000 == 0:
             print("i: %i" % i) # For python 3.
         for row in range(rows):
